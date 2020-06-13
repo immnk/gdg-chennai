@@ -1,12 +1,11 @@
 {
-  "name": "immnk.github.io",
+  "name": "gdg-chennai",
   "version": "1.0.0",
-  "description": "A personal website for Mani",
-  "main": "index.js",
+  "description": "React application that demostrates webpack",
   "scripts": {
     "clean": "rimraf ./build",
     "start": "npm run start:dev",
-    "start:dev": "cross-env PROXY_SERVER=dev webpack-dev-server --mode=development",
+    "start:dev": "cross-env PROXY_SERVER=dev webpack-dev-server --mode=development --open",
     "build": "npm run clean && npm run build:bundle",
     "build:bundle": "cross-env NODE_ENV=production webpack --mode=production",
     "test": "npm run lint && npm run test:coverage",
