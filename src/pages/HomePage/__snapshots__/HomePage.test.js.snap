@@ -4,11 +4,81 @@ exports[`<HomePage> Should render 1`] = `
 <div
   className="root"
 >
-  Hello home
-  <a
-    href="#/more"
+  <h1
+    className="header"
   >
-    go
-  </a>
+    Hi, I'm
+     
+    <span
+      className="highlight"
+    >
+      Mani
+      <span
+        aria-label="glasses"
+        role="img"
+      >
+        👓
+      </span>
+    </span>
+  </h1>
+  <p>
+    Mobile and Front End Developer | UI UX | Web Designer | Foodie | Tech Enthusiastic | Developer #DBS | Proud Indian
+  </p>
+  <div
+    className="iconsSocial"
+  >
+    <a
+      href="https://github.com/immnk"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-github"
+      />
+    </a>
+    <a
+      href="https://twitter.com/manimnk"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-twitter"
+      />
+    </a>
+    <a
+      href="https://stackoverflow.com/story/manikantamnk"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-stack-overflow"
+      />
+    </a>
+    <a
+      href="https://dev.to/immnk"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-dev"
+      />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/manikantatankala"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-linkedin"
+      />
+    </a>
+    <a
+      href="#/more"
+    >
+      <i
+        className="fas fa-angle-double-right"
+      />
+    </a>
+  </div>
 </div>
 `;
