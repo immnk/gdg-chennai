@@ -13,6 +13,6 @@ deploy:
   local_dir: build/
   keep-history: true
   on:
-    branch: dev
+    branch: develop
 notifications:
   email: false
