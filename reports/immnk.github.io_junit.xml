@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="immnk.github.io" tests="1" failures="0" time="5.039">
+  <testsuite name="&lt;HomePage&gt;" errors="0" failures="0" skipped="0" timestamp="2020-06-13T03:48:57" time="2.37" tests="1">
+    <testcase classname="immnk.github.io" name="&lt;HomePage&gt; Should render" time="0.012">
+    </testcase>
+  </testsuite>
+</testsuites>
