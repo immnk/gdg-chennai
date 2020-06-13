@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Suspense } from 'react';
 import { hot } from 'react-hot-loader/root';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
@@ -14,12 +14,14 @@ class App extends PureComponent {
   render() {
     return (
       <div className={css.root}>
-        <HashRouter>
-          <Switch>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/more" component={MoreInfoPage} />
-          </Switch>
-        </HashRouter>
+        <Suspense fallback={<div>Loading...</div>}>
+          <HashRouter>
+            <Switch>
+              <Route path="/" exact component={HomePage} />
+              <Route path="/more" component={MoreInfoPage} />
+            </Switch>
+          </HashRouter>
+        </Suspense>
       </div>
     );
   }

@@ -36,6 +36,7 @@ module.exports = {
     indent: 'off',
     'no-console': 2,
     'react/jsx-filename-extension': 'off',
-    'react/jsx-props-no-spreading': 'off'
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-one-expression-per-line': 'off'
   }
 };

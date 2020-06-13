@@ -21,11 +21,6 @@ module.exports = (env, argv) => {
     resolve: {
       modules: ['node_modules'],
       extensions: ['.js', '.jsx'],
-      // alias: {
-      //   components: path.resolve(__dirname, 'src/components'),
-      //   pages: path.resolve(__dirname, 'src/pages'),
-      //   'react-dom': '@hot-loader/react-dom'
-      // },
       symlinks: false
     },
     optimization: {
